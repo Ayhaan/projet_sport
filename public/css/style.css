@@ -1,4 +1,12 @@
 @charset "UTF-8";
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../fonts/Ubuntu_font/Ubuntu-Regular.ttf");
+}
+@font-face {
+  font-family: "Perma";
+  src: url("../fonts/Perma/PermanentMarker-Regular.ttf");
+}
 /*!
  * Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -16015,11 +16023,12 @@ h3 {
   }
 }
 #acceuil {
-  background-color: #f8f8f8;
+  background-color: #126f80;
   height: 100vh;
 }
 #acceuil .boite {
   width: 1000px;
+  height: 80vh;
   background: #fff;
   margin: 0 auto;
   border-radius: 20px;
@@ -16027,7 +16036,7 @@ h3 {
   -moz-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
 }
 #acceuil .boite .contenu {
-  padding: 75px 0;
+  padding: 50px 0;
 }
 #acceuil .boite .contenu nav div {
   flex: 1;
@@ -16037,14 +16046,14 @@ h3 {
   transform: rotate(10deg);
 }
 #acceuil .boite .contenu nav div .rotate span {
-  background-color: black;
+  background-color: #525e76;
   padding: 5px 10px;
   color: white;
   font-size: 20px;
 }
 #acceuil .boite .contenu nav div div a {
   color: black;
-  font-weight: bold;
+  font-weight: 500;
 }
 #acceuil .boite .contenu nav ul {
   list-style: none;
@@ -16054,7 +16063,7 @@ h3 {
   font-weight: 500;
 }
 #acceuil .boite .contenu nav ul li:last-child {
-  background: black;
+  background: #525e76;
   padding: 8px 25px;
   border-radius: 5px;
 }
@@ -16066,48 +16075,134 @@ h3 {
   height: 400px;
 }
 #acceuil .boite .contenu div .row .col-4 h1 {
+  font-family: Perma !important;
   font-weight: bold;
 }
 #acceuil .boite .contenu div .row .col-4 a {
   color: white;
-  background: black;
+  background: #525e76;
   padding: 10px 30px;
   border-radius: 5px;
   text-decoration: none;
 }
 #acceuil .boite .contenu div .row .col-8 {
-  background-image: url(../img/acceuil.jpg);
+  background-image: url(../img/test.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #home {
+  background-color: #f8f8f8;
   height: 100vh;
 }
-#home .row:first-child {
+#home .boite {
+  width: 1000px;
+  height: 80vh;
+  background: #fff;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+}
+#home .boite .contenu {
+  padding: 50px 0;
   height: 100%;
 }
-#home .row .col-6:first-child h1 {
+#home .boite .contenu nav div {
+  flex: 1;
+}
+#home .boite .contenu nav div .rotate {
+  max-width: max-content;
+  transform: rotate(10deg);
+}
+#home .boite .contenu nav div .rotate span {
+  background-color: #525e76;
+  padding: 5px 10px;
+  color: white;
+  font-size: 20px;
+}
+#home .boite .contenu nav div div a {
+  color: black;
+  font-weight: 500;
+}
+#home .boite .contenu nav ul {
+  list-style: none;
+  flex: 2;
+}
+#home .boite .contenu nav ul li {
+  font-weight: 500;
+}
+#home .boite .contenu nav ul li:last-child {
+  background: #525e76;
+  padding: 8px 25px;
+  border-radius: 5px;
+}
+#home .boite .contenu nav ul li:last-child a {
+  color: white;
+  text-decoration: none;
+}
+#home .boite .contenu .row {
+  height: 90% !important;
+}
+#home .boite .contenu .row:first-child {
+  height: 100%;
+}
+#home .boite .contenu .row .col-7:first-child h1 {
   font-size: 45px;
   text-transform: capitalize;
   font-weight: bold;
 }
-#home .row .col-6:first-child .row {
-  margin-right: -100px;
+#home .boite .contenu .row .col-7:first-child .row .col-6 {
+  display: flex;
+  align-items: center;
 }
-#home .row .col-6:first-child .row .col-4 div {
+#home .boite .contenu .row .col-7:first-child .row .col-6 div {
+  height: 60%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  z-index: 2;
-  padding: 35px;
-  background-color: #f3f3f3;
+  justify-content: center;
+  background-color: #525e76;
+  border-radius: 5px;
 }
-#home .row .col-6:last-child {
+#home .boite .contenu .row .col-7:first-child .row .col-6 div a {
+  text-decoration: none;
+}
+#home .boite .contenu .row .col-7:first-child .row .col-6 div a p, #home .boite .contenu .row .col-7:first-child .row .col-6 div a i {
+  color: white;
+  margin: 0;
+  margin: 10px 0;
+}
+#home .boite .contenu .row .bg {
   background-image: url(../img/choix.jfif);
   background-size: cover;
-  z-index: -1;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  border-radius: 5%;
+}
+
+#fullbody {
+  background-color: #f8f8f8;
+  height: 100vh;
+}
+#fullbody .boite {
+  width: 1000px;
+  height: 80vh;
+  background: #fff;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+}
+#fullbody .boite .contenu {
+  padding: 50px 0;
+  height: 100%;
+}
+
+body {
+  font-family: Ubuntu;
 }
 
 /*# sourceMappingURL=style.css.map */
