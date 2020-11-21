@@ -1,15 +1,77 @@
+// #acceuil
+//     height: 100vh
+//     padding: 20px
+//     .row
+//         height: 100%
+//         h1
+//             font-size: 55px
+//             text-transform: uppercase
+//             font-weight: bold
+
+//     .col-7
+//         background-image: url(../img/Acceuil.jpg)
+//         background-size: cover
+//         background-position: center
+
 #acceuil
+    background-color: #f8f8f8
     height: 100vh
-    padding: 20px
-    .row
-        height: 100%
-        h1
-            font-size: 55px
-            text-transform: uppercase
-            font-weight: bold
+    .boite
+        width: 1000px
+        background: #fff
+        margin: 0 auto
+        border-radius: 20px
+        box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05)
+        -moz-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05)
+        // height: 900px
+        .contenu
+            padding: 75px 0
+            // background: #fff8f2
+            nav
+                div
+                    flex: 1
+                    .rotate
+                        max-width: max-content
+                        transform: rotate(10deg)
+                        span
+                            background-color: black
+                            padding: 5px 10px
+                            color: white
+                            font-size: 20px
+                    div
 
+                        a
+                            color: black
+                            font-weight: bold
 
-    .col-7
-        background-image: url(../img/Acceuil.jpg)
-        background-size: cover
-        background-position: center
+                ul
+                    list-style: none
+                    flex: 2
+                    li
+                        font-weight: 500
+                        &:last-child
+                            background: black
+                            padding: 8px 25px
+                            border-radius: 5px
+                            a
+                                color: white
+                                text-decoration: none
+            div
+                .row
+                    // padding: px 0
+                    height: 400px
+                    .col-4
+                        h1
+                            font-weight: bold
+                        a
+                            color: white
+                            background: black
+                            padding: 10px 30px
+                            border-radius: 5px
+                            text-decoration: none
+
+                    .col-8
+                        background-image: url(../img/acceuil.jpg)
+                        background-size: cover
+                        background-repeat: no-repeat
+                        background-position: center
