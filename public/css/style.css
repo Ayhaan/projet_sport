@@ -16093,7 +16093,7 @@ h3 {
 }
 
 #home {
-  background-color: #f8f8f8;
+  background-color: #126f80;
   height: 100vh;
 }
 #home .boite {
@@ -16173,10 +16173,9 @@ h3 {
 #home .boite .contenu .row .col-7:first-child .row .col-6 div a p, #home .boite .contenu .row .col-7:first-child .row .col-6 div a i {
   color: white;
   margin: 0;
-  margin: 10px 0;
 }
 #home .boite .contenu .row .bg {
-  background-image: url(../img/choix.jfif);
+  background-image: url(../img/sporthome.jfif);
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;

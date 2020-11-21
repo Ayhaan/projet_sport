@@ -197,7 +197,8 @@ body {
   font-size: 13px;
   line-height: 1.8;
   color: #222;
-  background: #f8f8f8;
+  /* background: #f8f8f8; */
+  /* background-color: #126f80; */
   font-weight: 400;
   font-family: Poppins; }
 
