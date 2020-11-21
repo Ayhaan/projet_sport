@@ -16052,6 +16052,7 @@ h3 {
   font-size: 20px;
 }
 #acceuil .boite .contenu nav div div a {
+  text-decoration: none;
   color: black;
   font-weight: 500;
 }
@@ -16061,6 +16062,10 @@ h3 {
 }
 #acceuil .boite .contenu nav ul li {
   font-weight: 500;
+}
+#acceuil .boite .contenu nav ul li a {
+  color: black;
+  text-decoration: none;
 }
 #acceuil .boite .contenu nav ul li:last-child {
   background: #525e76;
@@ -16080,6 +16085,7 @@ h3 {
 }
 #acceuil .boite .contenu div .row .col-4 p {
   font-style: italic;
+  text-transform: uppercase;
 }
 #acceuil .boite .contenu div .row .col-4 a {
   color: white;
@@ -16128,6 +16134,7 @@ h3 {
 #home .boite .contenu nav div div a {
   color: black;
   font-weight: 500;
+  text-decoration: none;
 }
 #home .boite .contenu nav ul {
   list-style: none;
@@ -16135,6 +16142,10 @@ h3 {
 }
 #home .boite .contenu nav ul li {
   font-weight: 500;
+}
+#home .boite .contenu nav ul li a {
+  color: black;
+  text-decoration: none;
 }
 #home .boite .contenu nav ul li:last-child {
   background: #525e76;
@@ -16153,7 +16164,6 @@ h3 {
 }
 #home .boite .contenu .row .col-7:first-child h1 {
   font-size: 45px;
-  text-transform: capitalize;
   font-weight: bold;
 }
 #home .boite .contenu .row .col-7:first-child .row .col-6 {
@@ -16186,7 +16196,7 @@ h3 {
 }
 
 #fullbody {
-  background-color: #f8f8f8;
+  background-color: #126f80;
   height: 100vh;
 }
 #fullbody .boite {

@@ -264,8 +264,8 @@ height: 100vh;
   width: 50%;
   overflow: hidden; }
 
-.signup-image {
-  margin: 0 55px; }
+/* .signup-image { */
+  /* margin: 0 55px; } */
 
 .form-title {
   margin-bottom: 33px; }
@@ -275,7 +275,9 @@ height: 100vh;
 
 figure {
   margin-bottom: 50px;
+  border-radius: 15px;
   text-align: center; }
+
 
 .form-submit {
   display: inline-block;
