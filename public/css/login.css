@@ -186,8 +186,9 @@ h2 {
   font-size: 36px; }
 
 .main {
-  background: #f8f8f8;
+  /* background: #f8f8f8; */
   /* padding: 150px 0;  */
+  height: 100vh;
 }
 
 .clear {
@@ -198,7 +199,7 @@ body {
   line-height: 1.8;
   color: #222;
   /* background: #f8f8f8; */
-  /* background-color: #126f80; */
+  background-color: #126f80;
   font-weight: 400;
   font-family: Poppins; }
 
@@ -253,7 +254,7 @@ body {
 
 .signup {
   /* margin-bottom: 150px; */
-/* height: 100vh;  */
+height: 100vh; 
 }
 
 .signup-content {

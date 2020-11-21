@@ -16078,6 +16078,9 @@ h3 {
   font-family: Perma !important;
   font-weight: bold;
 }
+#acceuil .boite .contenu div .row .col-4 p {
+  font-style: italic;
+}
 #acceuil .boite .contenu div .row .col-4 a {
   color: white;
   background: #525e76;
@@ -16086,7 +16089,7 @@ h3 {
   text-decoration: none;
 }
 #acceuil .boite .contenu div .row .col-8 {
-  background-image: url(../img/test.jpg);
+  background-image: url(../img/exercice.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -16175,7 +16178,7 @@ h3 {
   margin: 0;
 }
 #home .boite .contenu .row .bg {
-  background-image: url(../img/sporthome.jfif);
+  background-image: url(../img/home.jpg);
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
