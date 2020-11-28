@@ -16212,6 +16212,139 @@ h3 {
   padding: 50px 0;
   height: 100%;
 }
+#fullbody .boite .contenu nav div {
+  flex: 1;
+}
+#fullbody .boite .contenu nav div .rotate {
+  max-width: max-content;
+  transform: rotate(10deg);
+}
+#fullbody .boite .contenu nav div .rotate span {
+  background-color: #525e76;
+  padding: 5px 10px;
+  color: white;
+  font-size: 20px;
+}
+#fullbody .boite .contenu nav div div a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+#fullbody .boite .contenu nav ul {
+  list-style: none;
+  flex: 2;
+}
+#fullbody .boite .contenu nav ul li {
+  font-weight: 500;
+}
+#fullbody .boite .contenu nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+#fullbody .boite .contenu nav ul li:last-child {
+  background: #525e76;
+  padding: 8px 25px;
+  border-radius: 5px;
+}
+#fullbody .boite .contenu nav ul li:last-child a {
+  color: white;
+  text-decoration: none;
+}
+
+#conseil {
+  background-color: #126f80;
+}
+#conseil .boite {
+  width: 1000px;
+  background: #fff;
+  margin: 20px auto;
+  border-radius: 20px;
+  box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+}
+#conseil .boite .contenu {
+  padding: 50px 0;
+  height: 100%;
+}
+#conseil .boite .contenu nav div {
+  flex: 1;
+}
+#conseil .boite .contenu nav div .rotate {
+  max-width: max-content;
+  transform: rotate(10deg);
+}
+#conseil .boite .contenu nav div .rotate span {
+  background-color: #525e76;
+  padding: 5px 10px;
+  color: white;
+  font-size: 20px;
+}
+#conseil .boite .contenu nav div div a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+#conseil .boite .contenu nav ul {
+  list-style: none;
+  flex: 2;
+}
+#conseil .boite .contenu nav ul li {
+  font-weight: 500;
+}
+#conseil .boite .contenu nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+#conseil .boite .contenu nav ul li:last-child {
+  background: #525e76;
+  padding: 8px 25px;
+  border-radius: 5px;
+}
+#conseil .boite .contenu nav ul li:last-child a {
+  color: white;
+  text-decoration: none;
+}
+#conseil .boite .contenu .conseil_contenu {
+  height: 100%;
+}
+#conseil .boite .contenu .conseil_contenu .row .col-6:first-of-type {
+  text-align: center;
+  padding: 20px;
+}
+#conseil .boite .contenu .conseil_contenu .row .col-6:first-of-type h3 {
+  background-color: #525e76;
+  max-width: max-content;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+#conseil .boite .contenu .conseil_contenu .row .col-6:first-of-type h3 a {
+  color: #ffff;
+  text-decoration: none;
+}
+#conseil .boite .contenu .conseil_contenu .row .col-6:last-child {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#conseil .boite .contenu .conseil_contenu .row .col-6 button {
+  background-color: #126f80;
+  color: #fff;
+  letter-spacing: 1px;
+}
+#conseil .boite .contenu .conseil_contenu .row:nth-of-type(2) .col-6:first-of-type {
+  order: 2;
+}
+#conseil .boite .contenu .conseil_contenu .row .etir {
+  background: url(../img/stretch.png);
+  background-position: center;
+}
+#conseil .boite .contenu .conseil_contenu .row .echau {
+  background: url(../img/etirement.jpg);
+  background-position: center;
+}
+#conseil .boite .contenu .conseil_contenu .row .alim {
+  background: url(../img/test5.png);
+  background-size: 180% !important;
+}
 
 body {
   font-family: Ubuntu;
