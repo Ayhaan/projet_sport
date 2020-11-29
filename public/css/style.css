@@ -16201,7 +16201,6 @@ h3 {
 }
 #fullbody .boite {
   width: 1000px;
-  height: 80vh;
   background: #fff;
   margin: 0 auto;
   border-radius: 20px;
@@ -16323,6 +16322,7 @@ h3 {
 }
 #conseil .boite .contenu .conseil_contenu .row .col-6:last-child {
   background-size: cover;
+  height: 190px;
   background-repeat: no-repeat;
 }
 #conseil .boite .contenu .conseil_contenu .row .col-6 button {
